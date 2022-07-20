@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, 
+        initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title> Doggo Checker </title>
+        <link href="styles.css" rel="stylesheet">
+        <script defer src="mocha.js"></script>
+        
+</head>
+<body>
+<div class="doggo-checker-container">
+    <button class="doggo-checker" data-modal-target="#modal">Check Doggo</button>
+</div>
+<div class="modal" id="modal">
+    <div class="modal-header">
+        <div class="title">Doggo Checker</div>
+        <button data-close-button class="close-button">&times;</button>
+    </div>
+    <div class="modal-body">
+        Are you ready to see if Christine likes your dog
+    </div>
+    <img class="shiba-img" src="./shiba_wave.jpg"/>
+    <div class="doggo" id="doggoId">
+        <button data-yes-button="#doggo">Yes</button>
+        <button data-close-button>No</button>
+    </div>
+   </div>
+    </div>
+</div>
+<div id="overlay"></div>
+</body>
+</html>
